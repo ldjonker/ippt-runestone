@@ -31,7 +31,7 @@ Bij het testen van de code is het handiger om deze niet te testen met ``tekenspi
 opg-counters-vierkanten
 -----------------------
 
-Maak nu een programma waarmee de turtle het figuurtje hieronder tekent. Het kleinste vierkant heeft zijden van 20 pixels en het grootste vierkant zijden van 95 pixels.
+Maak nu een programma waarmee de turtle het figuurtje hieronder tekent. Het kleinste vierkant heeft zijden van 20 pixels en het grootste vierkant zijden van 200 pixels. 
 Maak vervolgens gebruik van de functie ``rndcol()`` om een elk vierkant een willekeurige kleur te geven. Je kunt dit gebruiken door ``pencolor()`` aan te roepen met de parameter ``rndcol()``, dus ``tina.pencolor( rndcol() )``.
 
 .. image:: images/vierkanten.png
