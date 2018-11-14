@@ -5,13 +5,10 @@ Range is eigenlijk een functie die een *lijst* van getallen maakt. Zo maakt ``ra
 
 .. code-block:: python
 
-   for i in range(10):
-      tina.dot(i)
-      tina.penup()
-      tina.forward(i*2)
-      tina.pendown()
+   for i in range(10, 30, 5):
+      
 
-Uitleg: ``range`` heeft dus in dit geval drie parameters. De eerste bevat de *beginwaarde*. We willen dus niet meer dat de lijst begint met 0 maar met 10. De tweede bevat de *eindwaarde*. De lijst wordt dus gevuld tot het getal 30 (*niet tot en met!!*). En als derde parameter geef je de stapgrootte mee. Die is standaard 1, maar nu hebben we hem ingesteld met 5.
+Uitleg: ``range`` heeft dus in dit geval drie parameters. De eerste bevat de *beginwaarde*. We willen dus niet meer dat de lijst begint met 0 maar met 10. De tweede bevat de *eindwaarde*. De lijst wordt dus gevuld tot het getal 30 (*niet tot en met!!*). En als derde parameter geef je de stapgrootte mee. Die is standaard 1, maar nu hebben we hem ingesteld met 5. Met behulp van de functie ``print`` kunnen we de lijst naar de *console* schrijven en daarmee de waarden erin bekijken.
 
 .. activecode:: vb-counters-range
    :caption: range(<beginwaarde>, <eindwaarde>, <stapgrootte>)
@@ -21,6 +18,5 @@ Uitleg: ``range`` heeft dus in dit geval drie parameters. De eerste bevat de *be
    print( range(10, 30, 5) )
 
 
-Met behulp van de functie ``print`` kunnen we de lijst naar de *console* schrijven en daarmee de waarden erin bekijken.
 
 Probeer andere waarden in te vullen voor de parameters van ``range``. N.B. Als je de lijst in omgekeerde volgorde wilt moet je niet alleen de begin en eindwaarden omdraaien maar dan is natuurlijk ook een negatieve stapgrootte nodig!
