@@ -8,6 +8,8 @@ Maak een functie ``envelop()`` die de parameter lengte moet meekrijgen. De aanro
 
 .. image:: images/envelop.png
 
+Controleer ook of de aanroep envelop(100) een grotere envelop zal tekenen!
+
 .. activecode:: opg-functions-enevelop
    :caption: envelop()
    :nocodelens:
